@@ -1,0 +1,33 @@
+.full-screen {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  background-color: rgba(9, 29, 4, 0.99);
+}
+
+#life-frame {
+  position: relative;
+}
+#life-frame tr {
+  padding: 0;
+}
+#life-frame tr td {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  padding: 0;
+}
+
+#start-button {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+#start-button:hover {
+  background-color: darkred;
+}
+
+/*# sourceMappingURL=style.css.map */
